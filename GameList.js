@@ -20,7 +20,7 @@ function getGame()
     // forEach : work on array
     //`` ${} : put something into {}
     game.forEach (function(currentGame){
-        tableCode += `<tr><td><a href="Leaderboard.html?id=${currentGame.id}">${currentGame.GameName}</a></td>
+        tableCode += `<tr><td><a href="LeaderBoard.html?id=${currentGame.id}">${currentGame.GameName}</a></td>
         \<td>${currentGame.Platform}</td></tr>`;
     });
 
