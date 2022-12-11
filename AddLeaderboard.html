@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Leaderboard</title>
+    <script src="AddLeaderboard.js"></script>
+    <link rel="stylesheet" href="AddLeaderboard.css" />
+    <link rel="icon" type="image/x-icon" href="./Sources/Favicon_Lobby.png">
+
+    
+</head>
+<body>
+
+    <h2>Add Games</h2>
+
+
+    <div id="myDiv">
+
+        <br>
+        <img src="./Sources/SoominLee_Kirby.gif" alt="kirby" width="450">
+        <br>
+
+        <br>
+        <label for="player"> Player :  </label>
+        <input id="player" type="text">
+        <br>
+        <label for="score"> Score : </label>
+        <input id="score" type="text">
+        <br>
+        <label for="time"> Time : </label>
+        <input id="time" type="text">
+        <br>
+        <br>
+        <input type="button" onclick="sendData()" value="Submit">
+        <br>
+        <br>
+
+    </div>
+
+
+    <br>
+    <input type="button" onclick="moveIdPage()" value="Go to Leaderboard">
+    <br>
+    <br>
+    <input type="button" onclick="location.href='GameList.html'" value="Link to Games page">
+    <br>
+    <input type="button" onclick="location.href='AddGame.html'" value="Link to AddGame Page">
+    <br>
+</body>
+</html>
