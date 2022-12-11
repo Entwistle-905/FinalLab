@@ -83,6 +83,6 @@ window.onload
 function moveIdPage()
 {
     var urlParams = new URLSearchParams(window.location.search);
-    location.href = `Leaderboard.html?id=${urlParams.get("id")}`
+    location.href = `LeaderBoard.html?id=${urlParams.get("id")}`
 }
 
